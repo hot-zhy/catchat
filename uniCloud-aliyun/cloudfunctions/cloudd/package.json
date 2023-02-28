@@ -1,0 +1,7 @@
+{
+  "name": "cloudd",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

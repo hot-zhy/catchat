@@ -1,0 +1,7 @@
+{
+  "name": "cloude",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

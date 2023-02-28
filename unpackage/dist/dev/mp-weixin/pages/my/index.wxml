@@ -1,0 +1,1 @@
+<view><block wx:if="{{fase}}"><view><view class="cont"><rich-text nodes="{{cont}}"></rich-text></view></view></block></view>

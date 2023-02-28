@@ -1,0 +1,7 @@
+{
+  "name": "verification_code",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

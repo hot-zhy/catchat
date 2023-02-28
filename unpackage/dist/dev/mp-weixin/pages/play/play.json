@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "喵喵玩",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-nav-bar": "/components/third-party/uni-ui/uni-nav-bar/uni-nav-bar",
+    "tqb-tabbar": "/components/tqb-tabbar/tqb-tabbar"
+  }
+}

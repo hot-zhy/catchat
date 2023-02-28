@@ -1,0 +1,7 @@
+{
+  "name": "cloudb",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

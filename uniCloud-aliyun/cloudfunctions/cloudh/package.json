@@ -1,0 +1,7 @@
+{
+  "name": "cloudh",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
