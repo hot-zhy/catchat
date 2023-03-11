@@ -299,7 +299,7 @@
 							'?x-oss-process=image/resize,m_fill,h_100,w_100' //压缩图片解决，在ios端分享图过大导致的图片失效问题
 					},
 					menus: [{
-							"img": "/static/app-plus/sharemenu/wechatfriend.png",
+							"img": "https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/wechatfriend.png",
 							"text": this.$t('common.wechatFriends'),
 							"share": {
 								"provider": "weixin",
@@ -307,7 +307,7 @@
 							}
 						},
 						{
-							"img": "/static/app-plus/sharemenu/wechatmoments.png",
+							"img": "https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/wechatmoments.png",
 							"text": this.$t('common.wechatBbs'),
 							"share": {
 								"provider": "weixin",
@@ -315,26 +315,26 @@
 							}
 						},
 						{
-							"img": "/static/app-plus/sharemenu/weibo.png",
+							"img": "https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/weibo.png",
 							"text": this.$t('common.weibo'),
 							"share": {
 								"provider": "sinaweibo"
 							}
 						},
 						{
-							"img": "/static/app-plus/sharemenu/qq.png",
+							"img": "https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/qq.png",
 							"text": "QQ",
 							"share": {
 								"provider": "qq"
 							}
 						},
 						{
-							"img": "/static/app-plus/sharemenu/copyurl.png",
+							"img": "https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/copyurl.png",
 							"text": this.$t('common.copy'),
 							"share": "copyurl"
 						},
 						{
-							"img": "/static/app-plus/sharemenu/more.png",
+							"img": "https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/more.png",
 							"text": this.$t('common.more'),
 							"share": "shareSystem"
 						}
@@ -371,7 +371,6 @@
 	.userInfo {
 		// padding: 20rpx;
 		padding-top: 60px;
-		background-image: url(../../static/uni-center/headers.png);
 		flex-direction: column;
 		align-items: center;
 	}

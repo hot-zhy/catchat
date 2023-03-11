@@ -1,6 +1,5 @@
 {
-	"pages": [
-		{
+	"pages": [{
 			"path": "pages/play/play",
 			"style": {
 				"navigationBarTitleText": "喵喵玩",
@@ -28,7 +27,7 @@
 				"navigationBarTitleText": "个人中心",
 				"navigationStyle": "custom"
 			}
-		},{
+		}, {
 			"path": "pages/my/home",
 			"style": {
 				"navigationBarTitleText": "用户协议"
@@ -157,8 +156,46 @@
 				"backgroundColor": "#F8F8F8",
 				"navigationBarTitleText": "ad"
 			}
+		}, {
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "喵喵聊",
+				"enablePullDownRefresh": false
+			}
+
 		}
-	],
+	    ,{
+            "path" : "pages/read/read",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        },
+		{
+		    "path" : "pages/listen/listen",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/phone/phone",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+		    }
+		    
+		}
+    ],
 	"subPackages": [{
 			"root": "uni_modules/uni-feedback",
 			"pages": [{
@@ -290,25 +327,23 @@
 		"custom": true,
 		"color": "#7A7E83",
 		"selectedColor": "#CE915B",
-		"list": [
-			{
+		"list": [{
 				"pagePath": "pages/play/play",
 				"text": "玩耍",
-				"iconPath": "static/cat_one.png",
-				"selectedIconPath": "static/cat_one_selected.png"
-			}
-			,
+				"iconPath": "/static/cat_one.png",
+				"selectedIconPath": "/static/cat_one_selected.png"
+			},
 			{
 				"pagePath": "pages/index/index",
 				"text": "聊天",
-				"iconPath": "static/cat_two.png",
-				"selectedIconPath": "static/cat_two_selected.png"
+				"iconPath": "/static/cat_two.png",
+				"selectedIconPath": "/static/cat_two_selected.png"
 			},
 			{
 				"pagePath": "pages/my/my",
 				"text": "我的",
-				"iconPath": "static/cat_three.png",
-				"selectedIconPath": "static/cat_three_selected.png"
+				"iconPath": "/static/cat_three.png",
+				"selectedIconPath": "/static/cat_three_selected.png"
 			}
 		]
 	},

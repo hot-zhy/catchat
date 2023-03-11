@@ -8,7 +8,7 @@ exports.main = async (event, context) => {
 		token: event.token
 	}).get()
 	if(res.data[0].nickname == undefined){
-		var mobile = res.data[0].mobile,avatar = 'http://ch.yunbiji.cloud/assets/img/avatar.png',free_num = 0,finish_time = '',type = 1;
+		var mobile = res.data[0].mobile,avatar = 'https://th.bing.com/th/id/OIP.8zXoQ33K2vyiOvXbrTct4AHaFj?pid=ImgDet&rs=1',free_num = 0,finish_time = '',type = 1;
 		res.data[0].nickname = mobile;
 		res.data[0].avatar = avatar;
 		res.data[0].free_num = free_num;

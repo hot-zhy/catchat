@@ -8,7 +8,7 @@
 		<unicloud-db ref="bannerdb" v-slot:default="{data, loading, error, options}" collection="opendb-banner"
 			field="_id,bannerfile,open_url,title" @load="onqueryload">
 			<!-- 当无banner数据时显示占位图 -->
-			<image v-if="!(loading||data.length)" class="banner-image" src="/static/uni-center/headers.png" mode="aspectFill" :draggable="false" />
+			<image v-if="!(loading||data.length)" class="banner-image" src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/headers.png" mode="aspectFill" :draggable="false" />
 			
 			<swiper v-else class="swiper-box" @change="changeSwiper" :current="current" indicator-dots>
 				<swiper-item v-for="(item, index) in data" :key="item._id">
@@ -32,7 +32,6 @@
 						v-if="i<3 || i>2&&i<6&&hasLogin || i>5&&uniIDHasRole('admin')"
 					>
 						<view class="grid-item-box" style="background-color: #fff;">
-							<!-- <image :src="'/static/grid/c'+(i+1)+'.png'" class="image" mode="aspectFill" /> -->
 							<text class="big-number">{{i+1}}</text>
 							<text class="text">{{item}}</text>
 						</view>

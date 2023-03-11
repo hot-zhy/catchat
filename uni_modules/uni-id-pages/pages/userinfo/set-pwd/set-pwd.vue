@@ -48,7 +48,7 @@ export default {
     return {
       uniIdRedirectUrl: '',
       loginType: '',
-      logo: '/static/logo.png',
+      logo: 'https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/logo.png',
       focusNewPassword: false,
       focusNewPassword2: false,
       allowSkip: false,

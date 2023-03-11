@@ -67,7 +67,6 @@
 
 	page,
 	body {
-		background: url(static/background.png) no-repeat center center fixed;
 		background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/sakura.png');
 		background-size: cover;
 		box-sizing: border-box;

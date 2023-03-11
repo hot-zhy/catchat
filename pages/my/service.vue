@@ -1,11 +1,5 @@
 <template>
 	<view class="content">
-		<!-- <view class="head" :style="{'padding-top':statusBarHeight * 2 + 'rpx'}">关于我们
-			<view class="back" @click="back">
-				<view class="back_pic a"><image src="../../static/fanhui@2x.png" mode=""></image></view>
-			</view>
-		</view>
-		<view :style="{'height':statusBarHeight * 2 + 88 + 'rpx'}"></view> -->
 		<view :style="{'height':1 + 'rpx'}"></view>
 		<view class="main" v-if="arr">
 			<view class="main_box" v-for="(item,index) in arr" :key="index">

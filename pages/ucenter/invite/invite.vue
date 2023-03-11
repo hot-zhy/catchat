@@ -5,8 +5,8 @@
 			<text class="tip appName">{{about.appName}}</text>
 			<text class="tip">{{about.slogan}}</text>
 			<view @click="download" id="download">
-				<image v-if="isIos" class="icon" src="@/static/h5/download-app/ios.png" mode="widthFix"></image>
-				<image v-else class="icon" src="@/static/h5/download-app/android.png" mode="widthFix"></image>
+				<image v-if="isIos" class="icon" src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/ios.png" mode="widthFix"></image>
+				<image v-else class="icon" src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/android.png" mode="widthFix"></image>
 				<text class="download-text">{{$t('invite.download')}}</text>
 			</view>
 			<text class="tip">version {{about.version}}</text>
@@ -15,7 +15,7 @@
 			<text class="hint">{{about.company}}</text>
 		</view>
 		<view class="mask" v-if="showMask">
-			<image src="../../../static/h5/download-app/openImg.png" mode="widthFix"></image>
+			<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/openImg.png" mode="widthFix"></image>
 		</view>
 	</view>
 </template>

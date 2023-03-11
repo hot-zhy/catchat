@@ -113,7 +113,7 @@
 				focusNickname:false,
 				focusPassword:false,
 				focusPassword2:false,
-				logo: "/static/logo.png"
+				logo: "https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/logo.png"
 			}
 		},
 		onReady() {

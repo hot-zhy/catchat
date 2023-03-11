@@ -19,25 +19,26 @@
 </template>
 
 <script>
+	import click from '@/common/click.js';
 export default {
 	props: ['activeIndex'],
 	data() {
 		return {
 			tabBarList: [{
 				pagePath: "/pages/play/play",
-				selectedIconPath: "/static/cat_one.png",
-				iconPath: "/static/cat_one_selected.png",
+				selectedIconPath: "https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/cat_one.png",
+				iconPath: "https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/cat_one_selected.png",
 				text: "玩耍"
 			},{
 				pagePath: "/pages/index/index",
-				selectedIconPath: "/static/cat_two.png",
-				iconPath: "/static/cat_two_selected.png",
+				selectedIconPath: "https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/cat_two.png",
+				iconPath: "https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/cat_two_selected.png",
 				text: "聊天"
 			}, 
 			{
 				pagePath: "/pages/my/my",
-				selectedIconPath: "/static/cat_three.png",
-				iconPath: "/static/cat_three_selected.png",
+				selectedIconPath: "https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/cat_three.png",
+				iconPath: "https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/cat_three_selected.png",
 				text: "我的"
 			}
 			]
@@ -50,6 +51,7 @@ export default {
 	},
 	methods: {
 		switchClick(data, index) {
+			click.play_ding()
 			if (index == this.activeIndex) {
 				return
 			}
@@ -63,7 +65,6 @@ export default {
 
 <style lang="scss" scoped>
 .tqb-tabbar {
-	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;

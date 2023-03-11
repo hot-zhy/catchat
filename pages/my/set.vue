@@ -1,11 +1,5 @@
 <template>
 	<view>
-		<!-- <view class="head" :style="{'padding-top':statusBarHeight * 2 + 'rpx'}">设置
-			<view class="back" @click="back">
-				<view class="back_pic a"><image src="../../static/fanhui@2x.png" mode=""></image></view>
-			</view>
-		</view>
-		<view :style="{'height':statusBarHeight * 2 + 88 + 'rpx'}"></view> -->
 		<view :style="{'height':1 + 'rpx'}"></view>
 		<view class="main">
 			<view class="main_btn" @click="btn">退出登录</view>

@@ -16,7 +16,11 @@
     "pages/ucenter/settings/settings",
     "pages/ucenter/read-news-log/read-news-log",
     "uni_modules/uni-pay/pages/success/success",
-    "uni_modules/uni-pay/pages/ad-interactive-webview/ad-interactive-webview"
+    "uni_modules/uni-pay/pages/ad-interactive-webview/ad-interactive-webview",
+    "pages/chat/chat",
+    "pages/read/read",
+    "pages/listen/listen",
+    "pages/phone/phone"
   ],
   "subPackages": [
     {
@@ -61,20 +65,20 @@
       {
         "pagePath": "pages/play/play",
         "text": "玩耍",
-        "iconPath": "static/cat_one.png",
-        "selectedIconPath": "static/cat_one_selected.png"
+        "iconPath": "/static/cat_one.png",
+        "selectedIconPath": "/static/cat_one_selected.png"
       },
       {
         "pagePath": "pages/index/index",
         "text": "聊天",
-        "iconPath": "static/cat_two.png",
-        "selectedIconPath": "static/cat_two_selected.png"
+        "iconPath": "/static/cat_two.png",
+        "selectedIconPath": "/static/cat_two_selected.png"
       },
       {
         "pagePath": "pages/my/my",
         "text": "我的",
-        "iconPath": "static/cat_three.png",
-        "selectedIconPath": "static/cat_three_selected.png"
+        "iconPath": "/static/cat_three.png",
+        "selectedIconPath": "/static/cat_three_selected.png"
       }
     ]
   },

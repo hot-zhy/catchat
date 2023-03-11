@@ -4,7 +4,7 @@ export default {
 		console.log(789789879);
 		if(!list){
 			list = [{
-				"img":"/static/sharemenu/wechatfriend.png",
+				"img":"https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/wechatfriend.png",
 				"text":"图标文字"
 			}]
 		}

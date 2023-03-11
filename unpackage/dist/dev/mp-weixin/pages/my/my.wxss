@@ -81,9 +81,29 @@ page {
 	box-shadow:
 		inset #221801 0 0 0 1px,
 		inset #059c8e 0 0 0 1px,
-		inset #0cab9c 0 0 0 6px,
-		inset #48e4d6 0 0 0 7px,
-		inset #e5f9f7 0 0 0 8px,
-		inset #bfecf7 0 0 0 9px
+		inset #0cab9c 0 0 0 2px,
+		inset #48e4d6 0 0 0 3px,
+		inset #e5f9f7 0 0 0 3.5px,
+		inset #bfecf7 0 0 0 5px
+}
+.relative1 {
+
+	width: 100%;
+	position: relative;
+}
+.pic_background {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.container1 {
+
+	height: 100%;
+
+	width: 100%;
+
+	flex-direction: column;
+
+	position: absolute;
 }
 

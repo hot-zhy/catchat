@@ -145,7 +145,7 @@
 			 */
 			logo:{
 				Type: String,
-				default: "/static/logo.png"
+				default: "https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/logo.png"
 			},
 			/**
 			 * 收银台高度（默认70vh）

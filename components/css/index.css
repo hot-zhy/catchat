@@ -43,10 +43,10 @@
 }
 .flooer{
 	width: 100vw;
-	height: 98rpx;
+	height: 140rpx;
 	display: flex;align-items: center;justify-content: space-between;
 	position: fixed;bottom: 0;left: 0;z-index: 999;
-	margin-bottom: 200rpx;
+	margin-bottom: 30rpx;
 	margin-top: 20rpx;
 }
 .flooer_l{

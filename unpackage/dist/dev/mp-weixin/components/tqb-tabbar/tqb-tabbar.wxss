@@ -25,7 +25,6 @@
 /* 透明度 */
 /* 文章场景相关 */
 .tqb-tabbar.data-v-88431ff8 {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;

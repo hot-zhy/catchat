@@ -2,7 +2,7 @@
 	<view @appear="appear">
 		<view v-if="state.error">
 			<view class="box" v-if="networkType == 'none'">
-				<image class="icon-image" src="@/static/uni-load-state/disconnection.png" mode="widthFix"></image>
+				<image class="icon-image" src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/disconnection.png" mode="widthFix"></image>
 				<text class="tip-text">{{noNetwork}}</text>
 				<view class="btn btn-default" @click="openSettings">
 					<text class="btn-text">{{toSet}}</text>

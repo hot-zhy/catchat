@@ -1,0 +1,1 @@
+<view><uni-nav-bar vue-id="96be033c-1" fixed="{{true}}" leftIcon="{{true}}" status-bar="{{true}}" background-color="#FEE2D5" left-text="返回" title="寻求帮助" data-event-opts="{{[['^clickLeft',[['naviback']]]]}}" bind:clickLeft="__e" bind:__l="__l"></uni-nav-bar></view>
