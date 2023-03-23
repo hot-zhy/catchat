@@ -74,7 +74,7 @@
 					content: '和我说说关于你的任何吧~'
 				}],
 				vals: '',
-				retext: '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', //从chatgpt官网获取key并在这里配置
+				retext: 'api-key', //从chatgpt官网获取key并在这里配置
 				pix_box: false,
 				timer: null,
 				wen: '',

@@ -43,7 +43,7 @@
 				type: "", //快捷登录方式
 				phone: "", //手机号码
 				focusPhone: false,
-				logo: "https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/logo.png"
+				logo: "https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/catt.png"
 			}
 		},
 		computed: {

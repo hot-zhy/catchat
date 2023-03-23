@@ -8,6 +8,7 @@
     "pages/my/index",
     "pages/my/set",
     "pages/my/service",
+    "pages/secret/secret",
     "pages/grid/grid",
     "pages/list/search/search",
     "pages/list/detail",
@@ -20,7 +21,9 @@
     "pages/chat/chat",
     "pages/read/read",
     "pages/listen/listen",
-    "pages/phone/phone"
+    "pages/phone/phone",
+    "pages/exchange/exchange",
+    "pages/wall/wall"
   ],
   "subPackages": [
     {
@@ -50,7 +53,7 @@
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "聊天人工智能",
+    "navigationBarTitleText": "登录",
     "navigationBarBackgroundColor": "#FFFFFF",
     "backgroundColor": "#F8F8F8",
     "enablePullDownRefresh": false,

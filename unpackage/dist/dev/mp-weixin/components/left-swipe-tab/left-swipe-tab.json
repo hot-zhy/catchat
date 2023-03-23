@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-divider": "/uni_modules/uview-ui/components/u-divider/u-divider",
+    "wyb-modal": "/components/third-party/wyb-modal/wyb-modal"
+  }
+}

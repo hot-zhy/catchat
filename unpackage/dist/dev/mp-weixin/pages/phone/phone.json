@@ -3,6 +3,6 @@
   "enablePullDownRefresh": false,
   "navigationStyle": "custom",
   "usingComponents": {
-    "uni-nav-bar": "/uni_modules/uni-nav-bar/components/uni-nav-bar/uni-nav-bar"
+    "wyb-modal": "/components/third-party/wyb-modal/wyb-modal"
   }
 }

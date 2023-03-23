@@ -49,6 +49,13 @@
 			}
 		},
 		{
+			"path": "pages/secret/secret",
+			"style": {
+				"navigationBarTitleText": "你有什么小秘密吗？",
+				"navigationStyle": "custom"
+			}
+		},
+		{
 			"path": "pages/grid/grid",
 			"style": {
 				//#ifndef MP
@@ -195,6 +202,26 @@
 		    }
 		    
 		}
+        ,{
+            "path" : "pages/exchange/exchange",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom",
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wall/wall",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
     ],
 	"subPackages": [{
 			"root": "uni_modules/uni-feedback",
@@ -302,7 +329,7 @@
 		},
 		// #endif
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "聊天人工智能",
+		"navigationBarTitleText": "登录",
 		"navigationBarBackgroundColor": "#FFFFFF",
 		"backgroundColor": "#F8F8F8",
 		"enablePullDownRefresh": false,

@@ -2,26 +2,22 @@
 	<view class="relative1" :style="'height:'+ screenHeight +'px !important;'">
 		<image class="pic_background" src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/beijing.gif"></image>
 		<view class="container1">
-			<view class="d-flex j-sb flex-wrap" style="margin-top: 150rpx;">
-				<view class="a-center j-center d-flex flex-1" @click="chatWithCat">
-					<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/chat2.png" mode="widthFix"
-						style="width: 170rpx;"></image>
+			<view class="d-flex j-sb mx-4 a-center" :style="'margin-top:'+screenHeight/10+'px !important;'">
+				<view class="" @click="listen">
+					<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/listen.png" mode="" style="width: 150rpx;height: 150rpx;"></image>
 				</view>
-				<view class="d-flex a-center j-center flex-1">
-					<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/chifan3.png" mode="widthFix"
-						style="width: 170rpx;"></image>
+				<view class="" @click="read">
+					<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/read.png" mode="" style="width: 150rpx;height: 150rpx;"></image>
 				</view>
-				<view class="d-flex a-center j-center flex-1">
-					<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/shujiao2.png" mode="widthFix"
-						style="width: 170rpx;"></image>
-				</view>
-				<view class="d-flex a-center j-center flex-1">
-					<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/shunmao2.png" mode="widthFix"
-						style="width: 170rpx;"></image>
+				<view class="" @click="phone">
+					<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/phone.png" mode="" style="width: 150rpx;height: 150rpx;"></image>
 				</view>
 			</view>
-			<view class="" style="margin-left: 100rpx;margin-top: 300rpx;
-			width: 200rpx; height: 200rpx;" @click="enterHouse"></view>
+			<view class="d-flex j-center" @click="chatWithCat" style="width: 200rpx;" :style="'height:'+screenHeight/5+'px !important;'+'margin-top:'+screenHeight/40+'px !important;'">
+				<image :src="image" style="width: 200rpx;height: 150rpx;"></image>
+			</view>
+			<view class="" style="margin-left: 100rpx;
+			width: 200rpx; height: 200rpx;"  @click="enterHouse"></view>
 			<tqb-tabbar activeIndex="1" />
 		</view>
 	</view>
@@ -32,14 +28,16 @@
 	export default {
 		data() {
 			return {
-				screenHeight: 0
+				screenHeight: 0,
+				image: 'https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/bukaixin.png',
 			}
 		},
 		onLoad() {
 			this.screenHeight = uni.getSystemInfoSync().windowHeight;
 		},
 		onShow() {
-
+			this.image = 'https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/xinli.png'
+			this.image = 'https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/zisha.png'
 		},
 		onBackPress() {
 
@@ -48,6 +46,24 @@
 
 		},
 		methods: {
+			listen(){
+				click.play_ding()
+				uni.navigateTo({
+					url:'/pages/listen/listen'
+				})
+			},
+			read(){
+				click.play_ding()
+				uni.navigateTo({
+					url:'/pages/read/read'
+				})
+			},
+			phone(){
+				click.play_ding()
+				uni.navigateTo({
+					url:'/pages/phone/phone'
+				})
+			},
 			enterHouse() {
 				click.play_ding()
 				uni.switchTab({

@@ -2,6 +2,7 @@
   "navigationBarTitleText": "喵喵玩",
   "navigationStyle": "custom",
   "usingComponents": {
-    "tqb-tabbar": "/components/tqb-tabbar/tqb-tabbar"
+    "tqb-tabbar": "/components/tqb-tabbar/tqb-tabbar",
+    "wyb-modal": "/components/third-party/wyb-modal/wyb-modal"
   }
 }

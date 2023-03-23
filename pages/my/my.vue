@@ -13,24 +13,24 @@
 				<view class="" :style="'margin-top:'+ screenHeight/10 +'px !important;'" style="">
 					<view class="d-flex j-sb a-center mx-2" style="">
 						<view class="" @click="mySettings">
-							<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/shezhi.png" mode="widthFix" style="width: 220rpx;"></image>
+							<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/shezhi.png" mode="widthFix" style="width: 180rpx;"></image>
 						</view>
 						<view class="">
-							<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/maoqiu.png" mode="widthFix" style="width: 220rpx;"></image>
+							<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/maoBall.png" mode="widthFix" style="width: 180rpx;"></image>
 						</view>
 						<view class="">
-							<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/maomi.png" mode="widthFix" style="width: 220rpx;"></image>
+							<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/maomi.png" mode="widthFix" style="width: 180rpx;"></image>
 						</view>
 					</view>
 					<view class="d-flex j-sb a-center mx-2">
-						<view class="">
-							<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/duihuan.png" mode="widthFix" style="width: 220rpx;"></image>
+						<view class="" @click="exchange">
+							<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/duihuan.png" mode="widthFix" style="width: 180rpx;"></image>
 						</view>
 						<view class="">
-							<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/tongji.png" mode="widthFix" style="width: 220rpx;"></image>
+							<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/tongji.png" mode="widthFix" style="width: 180rpx;"></image>
 						</view>
 						<view class="">
-							<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/ceshi.png" mode="widthFix" style="width: 220rpx;"></image>
+							<image src="https://chatcat-1312908194.cos.ap-shanghai.myqcloud.com/ceshi.png" mode="widthFix" style="width: 180rpx;"></image>
 						</view>
 					</view>
 				</view>
@@ -91,6 +91,11 @@
 			});
 		},
 		methods: {
+			exchange(){
+				uni.navigateTo({
+					url:'/pages/exchange/exchange'
+				})
+			},
 			mySettings(){
 				click.play_ding()
 				if (that.token == '') {

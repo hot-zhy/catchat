@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "wyb-popup": "/components/third-party/wyb-popup/wyb-popup"
+  }
+}
