@@ -28,12 +28,22 @@
 
 下载项目，导入到Hbuilderx编辑器中，即可一键运行，需要注意的是，需要在/pages/chat/chat.vue中写入自己的openai的api-key：
 
-![image-20230323133911746](C:/Users/zhy19/AppData/Roaming/Typora/typora-user-images/image-20230323133911746.png)
+![image](https://user-images.githubusercontent.com/100272100/227114104-4a7d42fe-3771-4aee-951c-34aae6abcae3.png)
 
 ## 项目技术创新
 
-1. **openai后台的封装：**在openai接入前，我们在后台对openai进行了封装，使得用户在一开始对话时就可以把对方当成一个小猫咪，我们的“宽心数字喵”聊天机器人会把自己认为是一个小猫咪，以一个小猫咪的角色给予用户积极正能量的回复；
-2. **NLP情感得分的计算：**我们并没有将openai的回复一股脑地返回给用户，而是通过hanlp对openai产生的回答进行了情感分析，判断了一段文本的情感极性
+1. openai后台的封装：在openai接入前，我们在后台对openai进行了封装，使得用户在一开始对话时就可以把对方当成一个小猫咪，我们的“宽心数字喵”聊天机器人会把自己认为是一个小猫咪，以一个小猫咪的角色给予用户积极正能量的回复；
+2. NLP情感得分的计算：我们并没有将openai的回复一股脑地返回给用户，而是通过hanlp对openai产生的回答进行了情感分析，判断了一段文本的情感极性
 
 ## 部分运行截图
+![image](https://user-images.githubusercontent.com/100272100/227114170-9a2c07e2-2e57-49dd-8c33-5bfd3133cdb8.png)
+![image](https://user-images.githubusercontent.com/100272100/227114225-6c152fd6-40b9-4d64-812f-f57ce9bd8c41.png)
+![image](https://user-images.githubusercontent.com/100272100/227114510-d3b55d81-0bb8-4ff4-9ec9-4fbcf3e15179.png)
+![image](https://user-images.githubusercontent.com/100272100/227114539-6f554b5c-b22b-41bc-9866-e914778468d4.png)
+![image](https://user-images.githubusercontent.com/100272100/227114751-38180bc6-b9b7-482f-b117-2c07b7060adf.png)
+![image](https://user-images.githubusercontent.com/100272100/227114936-b9bdaa60-d66f-4cff-9cdf-99a4eacb66f1.png)
+![image](https://user-images.githubusercontent.com/100272100/227115353-1d06bdc0-8a50-45d2-b572-52e784dfbc22.png)
+![image](https://user-images.githubusercontent.com/100272100/227115455-d068f8a8-1d62-4ef0-87a0-afb002a1d25f.png)
 
+## 产品使用说明书
+见《使用说明书》
